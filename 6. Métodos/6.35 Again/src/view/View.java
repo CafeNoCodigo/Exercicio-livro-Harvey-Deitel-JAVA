@@ -26,7 +26,7 @@ public class View {
 	private JLabel countCorrectLabel;
 	private JLabel countWrongLabel;
 	private SecureRandom random = new SecureRandom();
-	private int countCorrect = 8;
+	private int countCorrect = 0;
 	private int countWrong = 0;
 
 	public View() {
